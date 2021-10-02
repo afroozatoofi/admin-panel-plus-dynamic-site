@@ -1,0 +1,106 @@
+*{margin:0;padding:0}
+@font-face{	
+    font-family:'bbc';
+    src:url('../fonts/bbc-nassim-regular.eot?#') format('eot'), 
+        url('../fonts/bbc-nassim-regular.woff') format('woff'), 
+        url('../fonts/bbc-nassim-regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: farsi;
+  src: url(../fonts/farsiwebfont.ttf);
+}
+body{text-align: right; direction: rtl;font: 100% farsi,tahoma,Arial,sans-serif; width: 100%; margin: 0; min-width:600px;overflow:hidden;background-color:#f8f8f8 !important;}
+table{border-spacing:0;border-collapse:collapse;font: 100% farsi,tahoma,Arial,sans-serif;}
+table td, table th{padding: 0}
+a{text-decoration: none;}
+input{outline: none;}
+div{display: block}
+img{height:auto;border:0;vertical-align:top}
+button{cursor:pointer;-webkit-appearance:button;}
+input,button,select,textarea,a{font-family:farsi,tahoma,Arial,sans-serif;outline:none; font-size: 13px;padding: 3px;}
+
+#SignUpForm{border:2px solid #d7d8d8}
+#SignUpForm table{border-spacing: 3px 10px;}
+#SignUpForm .wrapper{background-color:#fff;border-top:2px solid #d7d8d8;padding:25px 35px}
+#SignUpForm label.message{width:80px}
+#SignUpForm button{background-color:#383b3d;color:#fff;width:80px}
+#SignUpForm .creload{color: #25b3c7; text-decoration: none}
+
+.logout{float:left !important;cursor: pointer}
+.logout a{text-decoration:none;}
+.footer td{direction:ltr;font-size:13px;text-align: left;padding: 0 10px}
+#sidebar a{white-space: nowrap;}
+.inProgress{background:red;color:white; text-align:left;position:fixed;padding:0 10px;top:0;left:0;font-family:farsi,tahoma;white-space:nowrap;display:none;z-index: 10}
+label.message{width:100px;line-height: 22px;}
+label.star{color:#c50}
+label.star::after {content: " *";}
+.btnNav{text-align:left;}
+.noselect{-webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;-o-user-select: none;user-select: none;}
+.ltr{text-align: left;direction: ltr}
+.btnNav .save{min-width:70px}
+.tab-content > .tab-pane {padding-top: 15px;}
+.imageBox {padding: 5px;border: 1px solid #D7D8D8;margin: 5px 0;}
+.imageBox img,.imageBox object{margin:0 3px;}
+.imageBox img:hover,.imageBox object:hover{cursor:url('../img/close.png'), auto;}
+.SearchForm td:not(.btnNav){text-align:right !important;}
+.lov{position:absolute;right:0;top: 2px;cursor: pointer;z-index: 1;display: none}
+.lov.ltr{left:5px;right:auto;}
+.lov:active{top:3px;}
+div.gridtools{
+  position: absolute;
+  z-index: 20;
+  margin-right: 4px;
+}
+div.gridtools:first-child{
+	margin-top: 4px;
+}
+div.gridtools:nth-child(2){
+	margin-top: -16px;    
+}
+div.gridtools:last-child{
+  margin-top: -34px;  
+}
+#contextMenu {position: absolute;display:none;z-index:50}
+#Form .btnNav{
+	padding-top: 6px
+}
+.form-input{
+	background-color: #EFF0F0;
+  font-family: farsi;
+  font-size: 14px;
+  border: 1px;
+  padding: 4px 6px;
+  line-height: 21px;
+}
+.form-box{
+  	border: 2px solid #D7D8D8;  
+  	background-color: #FFF;
+}
+.form-title{
+	background-color: #FFF;
+	padding: 1px;
+    border-bottom: 2px solid #D7D8D8;  
+}
+.form-body{
+	
+}
+.SearchForm{
+	border: 2px solid #D7D8D8;
+  	background-color: #FFF;
+  	display:inline-block;
+  	margin-bottom: 34px;
+  	width:100%;  
+}
+.SearchForm table{
+	border-spacing: 9px;
+	border-collapse: separate;
+}
+.SearchForm table tr{
+	border: 2px solid #D7D8D8;
+}
+.modal-footer button{
+	margin: 0 2px;
+}
+body {
+	padding-right:18px !important;	
+}
