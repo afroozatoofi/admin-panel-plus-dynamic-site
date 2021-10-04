@@ -7,4 +7,4 @@
 > if you wanna change these items go to : ../app/config/database.php
 4. execute the SQL files according to the file's numbers
 5. Happy Hacking
-6. Test
+6. Test 2
